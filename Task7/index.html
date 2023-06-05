@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="platinum.css">
+    <title>Platinum Properties</title>
+</head>
+<body>
+    <section class="platinum-container">
+        <div>
+            <img src="https://nis.ac.in/img/slider/1.jpg" alt="school img" >
+        </div>
+        <form action="">
+        <table >
+            <h2>Platinum Properties</h2>
+            <!-- first row -->
+            <tr>
+                <td>
+                    <a href="#property" id="property-info">Property Info</a>
+                </td>
+                <td>
+                    <a href="#personal" id="personal-info">Personal-info</a>
+                </td>
+                <td>
+                    <a href="#features" id="features-info">Extra Feature</a>
+                </td>
+            </tr>
+            <!-- second row -->
+            <tr>
+                <td colspan="3">
+                     <a class="info" href="#property-info">Property Information</a>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <label for="">Select Property type:</label> <br>
+                    <select name="" id="ptype">
+                        <option value="apartment">Apartment</option>
+                        <option value="independent house">Independent House</option>
+                        <option value="vila">Vila</option>
+                        <option value="compact home">Compact Home</option>
+                    </select>
+                </td>
+                <td>
+                    <label for="">BHK Type</label> <br>
+                    <select name="" id="bhk">
+                        <option value="">2BHK</option>
+                        <option value="">1BHK</option>
+                        <option value="">3BHK</option>
+                        <option value="">4BHK</option>                                                                
+                    </select>  
+                </td>
+                <td>
+                    <label for="">Select the possession status</label> <br>
+                    <select name="" id="status">
+                        <option value="">Ready To Move</option>
+                        <option value="">Plot</option>
+                        <option value="">Under Construction</option>
+                        <option value="">Semi Furnished</option>                                                                
+                    </select>  
+                </td>
+                     
+            </tr>
+
+            <!-- third row -->
+            <tr>
+                <td>
+                    <label for="">Price Range:</label>
+                </td>
+                <td>
+                    <input class="input-width" id="from" type="number" placeholder="2500000">
+                </td>
+                <td>
+                    <input class="input-width" id="to" type="number" placeholder="3500000">
+                </td>
+            </tr>
+            <!-- fourth row -->
+            <tr>
+                <td>
+                    <label for="">Location:</label> 
+                </td>
+                <td colspan="2">
+                    <input class="input-width" type="text" name="" id="location" placeholder="Coimbatore">
+                </td>
+            </tr>
+            <!-- fifth row -->
+            <tr>
+                <td colspan="3">
+                    <a class="info" href="#personal-info">Personal Information</a>
+                </td>
+            </tr>
+            <!-- sixth row -->
+            <tr>
+                <td>
+                    <label for="">Customer Name:</label> 
+                </td> 
+                <td colspan="2">
+                    <input class="input-width" id="cname" type="text" placeholder="Alex">
+                </td>              
+            </tr>
+            <!-- seventh row -->
+            <tr>
+                <td>
+                    <label for="">Phone Number</label>                   
+                </td>
+                <td colspan="2">
+                    <input class="input-width" id="phno" type="tel" placeholder="9876543218" pattern="[1-10]">
+                </td>
+            </tr>
+            <!-- eight row -->
+            <tr>
+                <td>
+                    <label for="">Email Id</label>                  
+                </td>
+                <td colspan="2">
+                    <input class="input-width" id="email" type="email" placeholder="alex@gmail.com">
+                </td>
+            </tr>
+
+            <!-- nineth row -->
+            <tr>
+                <td colspan="3">
+                    <a class="info" href="#features-info">Extra Features</a>
+                </td>
+            </tr>
+
+            <!-- tenth row -->
+            <tr >
+                <td>
+                    <input id="parking" type="checkbox" checked><label for="">Parking</label>
+                </td>
+                <td>
+                    <input id="swimming pool" type="checkbox" checked ><label for="">Swimming Pool</label>
+                </td>
+                <td>
+                    <input id="super market" type="checkbox" checked><label for="">Super Market</label>
+                </td>
+            </tr>
+            <!-- 11th row -->
+            <tr>
+                <td>
+                    <input id="park" type="checkbox" checked><label for="">Park</label>
+                </td>
+                <td>
+                    <input id="library" type="checkbox"><label for="">Library</label>
+                </td>
+                <td>
+                    <input id="play" type="checkbox" checked ><label for="">Play Ground</label>
+                </td>
+            </tr>
+            <!-- 12th row -->
+            <tr>
+                <td colspan="3">
+                    <a href="#submit">**Click here to unlock exclusive offers</a>
+                </td>
+            </tr>
+        </table>
+        <!-- submit button -->
+        <button>CHECK AVAILABILITY</button>
+    </form>
+</section>
+</body>
+</html>
